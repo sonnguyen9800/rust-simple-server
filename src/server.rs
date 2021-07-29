@@ -38,12 +38,6 @@ use std::io::Read;
                                     Ok(reqest) => {}
                                     Err(e) => println!("failed")
                                 }
-
-
-
-
-
-                                // let res: &Result<Request, _> = &buffer[..].try_into();
                             }
                             Err(e) => {
                                 println!("Falied to tread from connection {}", e);
